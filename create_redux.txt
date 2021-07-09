@@ -1,0 +1,4 @@
+Buat folder dengan nama redux / state
+1. isikan folder action yg berisi kumpulan action
+2. isikan folder reducer berisi file index untuk mencombine, file RootReducer berisi global state dan pengkondisian action
+3. isikan file index untuk import semua action menjadi satu * // buat satu file dengan nama store untuk createStore

@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(246, 250, 255);
+}
+.card-wrapper {
+  width: 300px;
+  height: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 280px;
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+  width: 80%;
+  background-position: center;
+}
+
+.content {
+  padding: 10px 0;
+}
+
+.content h6 {
+  text-transform: capitalize;
+}
